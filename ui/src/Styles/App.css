@@ -1,0 +1,14 @@
+* {
+  margin: 550;
+  padding: 0px;
+  box-sizing: border-box;
+  background-image: url("/Users/tashisherpa/projectReact/ui/public/img7.jpg");
+  color: rgba(255, 255, 255, 0.932);
+}
+
+.main-header {
+  display: flex;
+  color: white;
+  margin: 45px;
+  padding: 25px;
+}
