@@ -12,3 +12,12 @@
   margin: 45px;
   padding: 25px;
 }
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.forecast {
+  margin-left: 55px;
+}

@@ -35,9 +35,11 @@ const Weather = (props) => {
       <h1>
         Current weather in {location} is: {weather} F
       </h1>
-      <h4>Wind: {wind} mph 💨🍃</h4>
-      <h4>Humidity: {humidity}</h4>
-      <h4>Rain: {rain}</h4>
+      <div className="forecast">
+        <h3>Wind: {wind} mph 💨🍃</h3>
+        <h3>Humidity: {humidity}</h3>
+        <h3>Rain: {rain}</h3>
+      </div>
     </div>
   );
 };
